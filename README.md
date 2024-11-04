@@ -10,7 +10,7 @@ Juan Gabriel González Romero
 </h3>
 
 ---
-## Configuración da imaxe bin9 utilizando como medio Docker-Compose
+### Proposta: Configuración da imaxe bin9 utilizando como medio Docker-Compose
 ---
 ### Organización
 Para comezar crearemos unha carpeta onde atoparase todo o noso proyecto:
