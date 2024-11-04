@@ -154,7 +154,7 @@ Isto xa que co comando `dig` consultaremos directamente o servidor DNS e sabremo
 ```
 
 ---
-### Errores comúns
+### Erros comúns
 ```
  ✔ Container Practica5_bind9  Created                                      0.4s 
 Attaching to Practica5_bind9
