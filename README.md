@@ -172,7 +172,6 @@ Este fallo ocurre xa que escribin mal o `docker-compose.yml` e en vez de `volume
 
 ---
 ```
- ✔ Network p5_default         Created                                      0.1s 
  ✔ Container Practica5_bind9  Created                                      0.3s 
 Attaching to Practica5_bind9
 Practica5_bind9 exited with code 0
