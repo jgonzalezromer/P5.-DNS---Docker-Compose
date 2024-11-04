@@ -1,4 +1,13 @@
-# P5.-DNS---Docker-Compose
+<h1>
+<p align=center>
+P5-DNS-e-Docker-Compose 
+</p>
+</h1>
+<h3>
+<p align=center>
+Juan Gabriel González Romero
+</p>
+</h3>
 ---
 ## Configuración da imaxe bin9 utilizando como medio Docker-Compose
 ---
