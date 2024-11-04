@@ -30,3 +30,6 @@ Antes de pasar a crear os documentos de configuración faremos o comando:
 ```
 sudo chown -R 100:100 ./etc/bind/ ./var/cache/bind
 ```
+O cal fai que os donos dos directorios e subdirectores sinalados cambien a o propietario e grupo 100.
+
+Isto xa que asi nos aseguramos que BIND teña os permisos necesarios para funcionar dentro dun contenedor de Docker, o cal é clave para o funcionamento e a seguridade.
