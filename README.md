@@ -89,7 +89,7 @@ services:
       - ./var/cache/bind:/var/cache/bind
     restart: always #Esta opción indica que ó contenedor debe reiniciarse en ciertas condiciones
 ```
-Nel temos que ter en conta que nos volumes primeiro escribimos a ruta que terán no host `./etc/bind` e logo escribiremos a ruta no sistema de archivos do contenedor `/etc/bind`. Tamén hai que ter coidado coa indentacion xa que temos que utilizar 2 espacios en vez de tabular.
+Nel temos que ter en conta que nos volumes primeiro escribimos a ruta que terán no host `./etc/bind` e logo escribiremos a ruta no sistema de archivos do contenedor `/etc/bind`. **Tamén hai que ter coidado coa indentacion xa que temos que utilizar 2 espacios en vez de tabular**.
 
 ---
 ### named.conf
