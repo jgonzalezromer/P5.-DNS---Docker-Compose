@@ -21,6 +21,6 @@ Agora falaremos en como se divide este proyecto, onde teremos por unha parte o a
 
 Por outra parte teremos dous directorios principais que serviran como volumes como manda a [setup da imaxe](https://hub.docker.com/r/internetsystemsconsortium/bind9). Os cales serán `/etc/bind` e `/var/cache/bind`, os cales podremos crear rapidamente usando o comando:
 ```
-mkdri -p /etc/bind /var/cache/bind
+mkdir -p /etc/bind /var/cache/bind
 ```
 A rama de directorios de `/etc` serven para a configuración de BIND e a rama de `/var` serve para o espazo de traballo do funcionamento de BIND.
