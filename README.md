@@ -24,3 +24,9 @@ Por outra parte teremos dous directorios principais que serviran como volumes co
 mkdir -p /etc/bind /var/cache/bind
 ```
 A rama de directorios de `/etc` serven para a configuración de BIND e a rama de `/var` serve para o espazo de traballo do funcionamento de BIND.
+
+---
+Antes de pasar a crear os documentos de configuración faremos o comando:
+```
+sudo chown -R 100:100 ./etc/bind/ ./var/cache/bind
+```
