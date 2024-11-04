@@ -155,3 +155,29 @@ Isto xa que co comando `dig` consultaremos directamente o servidor DNS e sabremo
 
 ---
 ### Errores comúns
+```
+ ✔ Container Practica5_bind9  Created                                      0.4s 
+Attaching to Practica5_bind9
+Gracefully stopping... (press Ctrl+C again to force)
+Error response from daemon: driver failed programming external connectivity on endpoint Practica5_bind9 (8c9ec078715143bb6ed75fed8dc1b8036c2afb64120ce95d1643875075941095): failed to bind port 0.0.0.0:53/tcp: Error starting userland proxy: listen tcp4 0.0.0.0:53: bind: address already in use
+```
+Este error se debe a que o porto 53 está en uso e non se pode utilizar.
+A solución máis comoda e cambialo a outro, por exemplo ao 54.
+
+---
+```
+validating /home/gabriel/P5/docker-compose.yml: services.bind9 Additional property volume is not allowed
+```
+Este fallo ocurre xa que escribin mal o `docker-compose.yml` e en vez de `volumes` escribín `volume`.
+
+---
+```
+ ✔ Network p5_default         Created                                      0.1s 
+ ✔ Container Practica5_bind9  Created                                      0.3s 
+Attaching to Practica5_bind9
+Practica5_bind9 exited with code 0
+```
+Este erró debese a que o ficheiro(que non é o yml, neste caso o named.conf) ten mal a sintaxis como pode ser olvidarse un `;`.
+
+---
+---
